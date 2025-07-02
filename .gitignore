@@ -1,0 +1,39 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+build/
+dist/
+out/ # Common output directory for TypeScript compilation
+tmp/
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.userosf
+*.sln.docstates
+
+# Test coverage
+coverage/
+
+# Misc
+*.tsbuildinfo # TypeScript incremental build information
