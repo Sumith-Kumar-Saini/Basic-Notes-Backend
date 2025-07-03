@@ -1,30 +1,33 @@
 # Basic Notes Backend
 
-This is a simple backend application built with **Express** and **TypeScript**. It provides basic **CRUD** operations to manage notes, allowing you to:
-
-- **Create**
-- **Read**
-- **Update**
-- **Delete**
-
-Notes through HTTP endpoints.
+This is a simple backend application built with **Express** and **TypeScript**. It provides basic **CRUD** operations to manage notes.
 
 ## Features
 
 - **GET /notes**: Fetch all notes.
-- **GET /note/:id**: Fetch a specific note by ID.
+- **GET /notes/:id**: Fetch a specific note by ID.
 - **POST /notes**: Create a new note.
 - **PATCH /notes/:id**: Update an existing note by ID.
 - **DELETE /notes/:id**: Delete a note by ID.
+
+## API Endpoints
+
+| Method | Endpoint        | Description                  |
+|--------|----------------|------------------------------|
+| GET    | /notes         | List all notes               |
+| GET    | /notes/:id     | Get a note by ID             |
+| POST   | /notes         | Create a new note            |
+| PATCH  | /notes/:id     | Update a note by ID          |
+| DELETE | /notes/:id     | Delete a note by ID          |
 
 ## Installation
 
 1. Clone the repository:
 
-```bash
+   ```bash
    git clone https://github.com/yourusername/basic-notes-backend.git
    cd basic-notes-backend
-````
+   ```
 
 2. Install dependencies:
 
