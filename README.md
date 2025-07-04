@@ -1,4 +1,4 @@
-# Basic Notes Backend
+# 📘 Basic Notes Backend
 
 [![Live](https://img.shields.io/badge/Live-Link-blue?style=flat-square&logo=render&logoColor=white)](https://basic-notes-backend.onrender.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
@@ -52,8 +52,6 @@
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/Sumith-Kumar-Saini/Basic-Notes-Backend.git
-cd Basic-Notes-Backend
 git clone https://github.com/Sumith-Kumar-Saini/Basic-Notes-Backend.git
 cd Basic-Notes-Backend
 ````
