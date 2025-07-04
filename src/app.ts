@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import notesRouter from "./routes/notes";
+import notesRouter from "./routes/note.routes";
 import * as dotenv from "dotenv";
 import cors from "cors";
 

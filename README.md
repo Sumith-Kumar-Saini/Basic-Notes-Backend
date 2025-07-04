@@ -1,9 +1,9 @@
-# 📘 Basic Notes Backend
+# Basic Notes Backend
 
 [![Live](https://img.shields.io/badge/Live-Link-blue?style=flat-square&logo=render&logoColor=white)](https://basic-notes-backend.onrender.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-> A simple backend API built with **Express** and **TypeScript** providing basic **CRUD** operations for note management.
+> A simple backend API built with **Express** and **TypeScript**, offering basic **CRUD** operations to manage notes.
 
 ---
 
@@ -20,6 +20,18 @@
 - 📝 **POST /notes** – Create a new note
 - ✏️ **PATCH /notes/:id** – Update a note by ID
 - ❌ **DELETE /notes/:id** – Delete a note by ID
+
+---
+
+## 📑 API Endpoints
+
+| Method | Endpoint        | Description            |
+|--------|-----------------|------------------------|
+| GET    | `/notes`        | Fetch all notes        |
+| GET    | `/notes/:id`    | Fetch a note by ID     |
+| POST   | `/notes`        | Create a new note      |
+| PATCH  | `/notes/:id`    | Update a note by ID    |
+| DELETE | `/notes/:id`    | Delete a note by ID    |
 
 ---
 
@@ -42,6 +54,8 @@
 ```bash
 git clone https://github.com/Sumith-Kumar-Saini/Basic-Notes-Backend.git
 cd Basic-Notes-Backend
+git clone https://github.com/Sumith-Kumar-Saini/Basic-Notes-Backend.git
+cd Basic-Notes-Backend
 ````
 
 2. **Install dependencies:**
@@ -56,13 +70,13 @@ npm install
 npm run build
 ```
 
-4. **Start the server in development mode:**
+4. **Start the server in development mode (hot reload):**
 
 ```bash
 npm run dev
 ```
 
-Or in production:
+Or in production mode:
 
 ```bash
 npm start
